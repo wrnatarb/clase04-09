@@ -28,7 +28,7 @@
             //Generen su propia API Key en https://api.nasa.gov/
             $.getJSON( "https://api.nasa.gov/planetary/apod?api_key=04K37L7GGSpySZSkUkXjYxb2HffIXeZw6cgHgB8J&date=2002-12-05", function( data ) {
                 console.log(data);
-                $("h1").after("<img src='"+data.hdurl+"'><h3>"+data.title+"</h3><p>"+data.explanation+"'><p>");
+                $("h1").after("<img src='"+data.hdurl+"'><h2>"+data.title+"</h3><p>"+data.explanation+"'><p>");
             }); 
             // busquen una fecha especial, puede ser su nacimiento. Seguro existe una foto para ese día: https://apod.nasa.gov/apod/archivepix.html           
         </script>

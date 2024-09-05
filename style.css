@@ -66,3 +66,13 @@ span {
 span:hover {
     color: rgba(255, 255, 255, 0.3);
 }
+.unos{
+    background:rgba(255,255,255,0.5);
+    padding:1rem;
+    margin:1rem 0;
+}
+.otros{
+    background:rgba(0,0,0,0.5); /*red green blue alfa (te deja de 0 a 1)*/
+    padding:1rem;
+    margin:1rem 0;
+}
